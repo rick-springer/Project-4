@@ -238,6 +238,7 @@ sup {
 a {
   color: #A93B23;
   text-decoration: underline;
+  
 }
 a:hover {
   color: #cca000;
@@ -2594,7 +2595,7 @@ textarea.form-control-lg {
   width: 1rem;
   height: 1rem;
   margin-top: -0.25rem;
-  background-color: #A93B23;
+  background-color: #ffffff;
   border: 0;
   border-radius: 1rem;
   -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -3033,7 +3034,7 @@ textarea.form-control-lg {
   color: #fff;
   background-color: #A93B23;
   border-color: #A93B23;
-}
+  box-shadow: 3px 3px 5px #00000060;}
 .btn-primary:hover {
   color: #fff;
   background-color: #d9aa00;
@@ -4087,7 +4088,7 @@ textarea.form-control-lg {
   padding: 0.25rem 0.75rem;
   font-size: 1.25rem;
   line-height: 1;
-  background-color: #A93B23;
+  background-color: #ffffff;
   border: 1px solid transparent;
   border-radius: 0.25rem;
   transition: box-shadow 0.15s ease-in-out;
@@ -11375,11 +11376,12 @@ p {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     border: none;
-    background-color: transparent;
+    background-color: #21252935;
     transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
     font-size: 1.5em;
+    /* text-shadow: 0px 0px 2px #ffffff40; */
     transition: font-size 0.3s ease-in-out;
   }
   #mainNav .navbar-brand img {
@@ -11409,6 +11411,7 @@ header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 25px;
   text-align: center;
+  text-shadow: 3px 3px 5px #00000040;
   color: #fff;
   background-image: url("../assets/img/header.jpg");
   background-repeat: no-repeat;
