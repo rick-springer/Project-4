@@ -11407,6 +11407,11 @@ p {
     margin-right: 0;
   }
 }
+.full-height, body, html {
+  height: 100%;
+  width: 100%
+  }
+
 header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 25px;
@@ -11623,6 +11628,9 @@ header.masthead .masthead-heading {
 .timeline .timeline-heading h4, .timeline .timeline-heading .h4 {
   margin-top: 0;
   color: inherit;
+  text-align: center;
+  
+  
 }
 .timeline .timeline-heading h4.subheading, .timeline .timeline-heading .subheading.h4 {
   text-transform: none;
