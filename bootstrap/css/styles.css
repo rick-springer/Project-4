@@ -11407,6 +11407,10 @@ p {
     margin-right: 0;
   }
 }
+.full-height, body, html {
+  height: 100%;
+  width: 100%
+  }
 header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 25px;
