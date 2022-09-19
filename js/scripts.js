@@ -54,8 +54,6 @@ function sendDataToServer(survey) {
     //send Ajax request to your web server
     alert("The results are: " + JSON.stringify(survey.data));
     console.log(survey.data);
-
-    var pass_to_python = survey.data
 }
 
 // function pass_values() {
