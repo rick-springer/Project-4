@@ -69,3 +69,4 @@ $("#surveyContainer").Survey({
     model: survey,
     onComplete: sendDataToServer
 });
+
