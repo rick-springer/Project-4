@@ -127,3 +127,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+heart_2020_cleaned.csv
