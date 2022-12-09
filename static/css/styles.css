@@ -7780,6 +7780,11 @@ textarea.form-control-lg {
   color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
 }
 
+.text-white-o {
+  --bs-text-opacity: .8;
+  color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+}
+
 .text-body {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-body-color-rgb), var(--bs-text-opacity)) !important;
@@ -11729,12 +11734,29 @@ header.masthead .masthead-heading {
   margin-bottom: 3rem;
   text-align: center;
 }
+.team-member-l {
+  margin-bottom: 3rem;
+  text-align: center;
+}
 .team-member img {
   width: 14rem;
   height: 14rem;
   border: 0.5rem solid rgba(0, 0, 0, 0.1);
+
+  
+}
+.team-member-l img {
+  width: 16rem;
+  height: 16rem;
+  border: 0.5rem solid rgba(0, 0, 0, 0.2);
+
+  
 }
 .team-member h4, .team-member .h4 {
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+}
+.team-member-l h4, .team-member-l .h4 {
   margin-top: 1.5rem;
   margin-bottom: 0;
 }

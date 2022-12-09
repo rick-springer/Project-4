@@ -8,14 +8,14 @@
     <meta name="author" content="" />
     <title>Heart Disease Prediction</title>
     <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="assets/heart.jpg" />
+    <link rel="icon" type="image/x-icon" href="static/assets/heart.jpg" />
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
     <!-- Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles.css" rel="stylesheet" />
+    <link href="static/css/styles.css" rel="stylesheet" />
     <script src="https://unpkg.com/jquery"></script>
     <link href="https://unpkg.com/survey-jquery@1.9.49/defaultV2.css" type="text/css" rel="stylesheet" />
     <script src="https://unpkg.com/survey-jquery@1.9.49/survey.jquery.min.js"></script>
@@ -50,11 +50,12 @@
 
             <div class="masthead-heading text-uppercase">Heart Disease Prediction</div>
             <div class="masthead-subheading">Can Machine Learning Predict Heart Disease?</div><br>
-            <a class="btn btn-primary btn-xl text-uppercase" data-bs-toggle="modal" href="http://127.0.0.1:5000/">Take the Quiz</a>
+            <a class="btn btn-primary btn-xl text-uppercase" data-bs-toggle="modal" href="http://127.0.0.1:5000/">Take
+                the Quiz</a>
         </div>
     </header>
-    <!-- Questionaire-->  
-  <!-- Portfolio Grid -->
+    <!-- Questionaire-->
+    <!-- Portfolio Grid -->
 
     <!-- How it works-->
     <section class="page-section" id="How it works">
@@ -65,58 +66,68 @@
             </div>
             <ul class="timeline">
                 <li>
-                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/one.jpeg"
-                            alt="..." /></div>
+                    <div class="timeline-image"><img class="rounded-circle img-fluid"
+                            src="static/assets/img/about/one.jpeg" alt="..." /></div>
                     <div class="timeline-panel">
                         <div class="timeline-heading">
-                            <h4 class="subheading">Data Pre-Processing</h4>
+                            <h4 class="subheading text-end">Data Pre-Processing</h4>
                         </div>
                         <div class="timeline-body">
-                            <p>The heart disease data is pre-processed after a collection of various records. To work with categorical variables, certain attributes are broken down into dummy columns using 1's and 0's. The get dummies method is used to split categorical questions into yes or no variables for each possible answer.</p>
+                            <p>The heart disease data is pre-processed after a collection of various records. To work
+                                with categorical variables, certain attributes are broken down into dummy columns using
+                                1's and 0's. The get dummies method is used to split categorical questions into yes or
+                                no variables for each possible answer.</p>
                         </div>
                     </div>
                 </li>
                 <li class="timeline-inverted">
-                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/two.jpeg"
-                            alt="..." /></div>
+                    <div class="timeline-image"><img class="rounded-circle img-fluid"
+                            src="static/assets/img/about/two.jpeg" alt="..." /></div>
                     <div class="timeline-panel">
                         <div class="timeline-heading">
 
-                            <h4 class="subheading">Feature Selection</h4>
+                            <h4 class="subheading text-start">Feature Selection</h4>
                         </div>
                         <div class="timeline-body">
-                            <p>All attributes of the data set contain vital clinical information and are all relative. Out of all the attributes, age and the sex are used to identify the demographic information of the subject. The data takes the form of a questionnaire and so each attribute answer for each question plays a role and determines the outcome.</p>
+                            <p>All attributes of the data set contain vital clinical information and are all relative.
+                                Out of all the attributes, age and the sex are used to identify the demographic
+                                information of the subject. The data takes the form of a questionnaire and so each
+                                attribute answer for each question plays a role and determines the outcome.</p>
                         </div>
                     </div>
                 </li>
                 <li>
-                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg"
-                            alt="..." /></div>
+                    <div class="timeline-image"><img class="rounded-circle img-fluid"
+                            src="static/assets/img/about/3.jpg" alt="..." /></div>
                     <div class="timeline-panel">
                         <div class="timeline-heading">
-                            <h4 class="subheading">Classification and Prediction</h4>
+                            <h4 class="subheading text-end">Classification and Prediction</h4>
                         </div>
-                        <div class="timeline-body text-center">
-                            <p>The performance of each classifier is evaluated for accuracy and loss. To evaluate the heart disease risk prediction, these are the following tools and classifiers:
+                        <div class="timeline-body">
+                            <p>The performance of each classifier is evaluated for accuracy and loss. To evaluate the
+                                heart disease risk prediction, we performed trials using the following tools and
+                                classifiers:
 
-
-                            <br> Random Forest Classifier
-                            <br> Adapting Boosting Classifier
-                            <br> Keras Sequential Model</p>
+                            <ul>
+                                <br> Random Forest Classifier
+                                <br> Adapting Boosting Classifier
+                                <br> Keras Sequential Model</p>
+                            </ul>
                         </div>
                     </div>
                 </li>
                 <li class="timeline-inverted">
-                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg"
-                            alt="..." /></div>
+                    <div class="timeline-image"><img class="rounded-circle img-fluid"
+                            src="static/assets/img/about/4.jpg" alt="..." /></div>
                     <div class="timeline-panel">
                         <div class="timeline-heading">
-                            <h4 class="subheading">Performance Evaluation</h4>
+                            <h4 class="subheading text-start">Performance Evaluation</h4>
                         </div>
                         <div class="timeline-body">
                             <p>Random Forest Classifier: 90.2 %
-                            <br>Adapting Boosting Classifier: 91%
-                            <br>Keras Sequential Model: 91.6%</p>
+                                <br>Adapting Boosting Classifier: 91%
+                                <br>Keras Sequential Model: 91.6%
+                            </p>
                         </div>
                     </div>
                 </li>
@@ -142,22 +153,13 @@
                 <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
             </div>
             <div class="row">
-                <div class="col-lg-4">
-                    <div class="team-member">
-                        <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="..." />
-                        <h4>Rick Springer</h4>
-                        <p class="text-muted">Lead Developer</p>
-                        <a class="btn btn-dark btn-social mx-2" href="https://github.com/rick-springer"
-                            aria-label="Rick Springer LinkedIn Profile"><i class="fa-brands fa-github"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/the-rick-springer/"
-                            aria-label="Rick Springer LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
+                <div class="col-lg-3">
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-2">
                     <div class="team-member">
-                        <img class="mx-auto rounded-circle" src="assets/img/team/2.jpg" alt="..." />
+                        <img class="mx-auto rounded-circle" src="static/assets/img/team/2.jpg" alt="..." />
                         <h4>Michele Allen</h4>
-                        <p class="text-muted">Lead Marketer</p>
+                        <p class="text-muted">Writer</p>
                         <a class="btn btn-dark btn-social mx-2" href="https://github.com/Sheshie1225"
                             aria-label="Michelle Allen LinkedIn Profile"><i class="fa-brands fa-github"></i></a>
                         <a class="btn btn-dark btn-social mx-2"
@@ -165,11 +167,11 @@
                             aria-label="Michelle Allen LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-2">
                     <div class="team-member">
-                        <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="..." />
+                        <img class="mx-auto rounded-circle" src="static/assets/img/team/3.jpg" alt="..." />
                         <h4>Isabel Moya</h4>
-                        <p class="text-muted">Lead Design</p>
+                        <p class="text-muted">Web Design</p>
                         <a class="btn btn-dark btn-social mx-2" href="https://github.com/BelleMoya"
                             aria-label="Isabel Moya LinkedIn Profile"><i class="fa-brands fa-github"></i></a>
                         <a class="btn btn-dark btn-social mx-2"
@@ -177,44 +179,70 @@
                             aria-label="Isabel Moya LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
-                <div class="team-member">
-                    <img class="mx-auto rounded-circle" src="assets/img/team/4.jpg" alt="..." />
-                    <h4>William Abate</h4>
-                    <p class="text-muted">Tableau Master</p>
-                    <a class="btn btn-dark btn-social mx-2" href="https://github.com/WAbate"
-                        aria-label="William Abate LinkedIn Profile"><i class="fa-brands fa-github"></i></a>
-                    <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/mwlite/in/william-abate"
-                        aria-label="William Abate LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                <div class="col-lg-2">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="static/assets/img/team/4.jpg" alt="..." />
+                        <h4>William Abate</h4>
+                        <p class="text-muted">Tableau</p>
+                        <a class="btn btn-dark btn-social mx-2" href="https://github.com/WAbate"
+                            aria-label="William Abate LinkedIn Profile"><i class="fa-brands fa-github"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/mwlite/in/william-abate"
+                            aria-label="William Abate LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3">
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-8 mx-auto text-center">
-                    <h4 class="subheading">Disclaimer:</h4>
-                    <p class="large text-center">
-                        Thank you for taking part in this short survey. The output of this survey is not a diagnosis, but will provide valuable insight pertaining to heart disease. This survey can be used for educational purposes.
-                        This survey is not intended to provide medical advice or treatment to others without having an active professional license to do so. Please consult your physician for personalized medical advice. Always seek the advice of a physician or other qualified healthcare providers with any questions regarding a medical condition.</p>
+                <div class="col-lg-12">
+                    <div class="team-member-l">
+                        <img class="mx-auto rounded-circle" src="static/assets/img/team/1.jpg" alt="..." />
+                        <h4>Rick Springer</h4>
+                        <p class="text-muted">Lead Developer | HTML/CSS/JS</p>
+                        <a class="btn btn-dark btn-social mx-2" href="https://github.com/rick-springer"
+                            aria-label="Rick Springer LinkedIn Profile"><i class="fa-brands fa-github"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/the-rick-springer/"
+                            aria-label="Rick Springer LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
                 </div>
             </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 mx-auto text-center">
+                <h4 class="subheading">Disclaimer:</h4>
+                <p class="large text-center">
+                    Thank you for taking part in this short survey. The output of this survey is not a diagnosis,
+                    but will provide valuable insight pertaining to heart disease. This survey can be used for
+                    educational purposes.
+                    This survey is not intended to provide medical advice or treatment to others without having an
+                    active professional license to do so. Please consult your physician for personalized medical
+                    advice. Always seek the advice of a physician or other qualified healthcare providers with any
+                    questions regarding a medical condition.</p>
+            </div>
+        </div>
         </div>
     </section>
     <!-- Clients-->
     <div class="py-5">
         <div class="container">
+            <div class="col-lg-4 mx-auto text-center">
+                <p class="large text-white-o">Some companies we like:</p>
+            </div>
             <div class="row align-items-center">
                 <div class="col-md-3 col-sm-6 my-3">
-                    <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/microsoft.svg"
-                            alt="..." aria-label="Microsoft Logo" /></a>
+                    <a href="#!"><img class="img-fluid img-brand d-block mx-auto"
+                            src="static/assets/img/logos/microsoft.svg" alt="..." aria-label="Microsoft Logo" /></a>
                 </div>
                 <div class="col-md-3 col-sm-6 my-3">
-                    <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/google.svg"
-                            alt="..." aria-label="Google Logo" /></a>
+                    <a href="#!"><img class="img-fluid img-brand d-block mx-auto"
+                            src="static/assets/img/logos/google.svg" alt="..." aria-label="Google Logo" /></a>
                 </div>
                 <div class="col-md-3 col-sm-6 my-3">
-                    <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/facebook.svg"
-                            alt="..." aria-label="Facebook Logo" /></a>
+                    <a href="#!"><img class="img-fluid img-brand d-block mx-auto"
+                            src="static/assets/img/logos/facebook.svg" alt="..." aria-label="Facebook Logo" /></a>
                 </div>
                 <div class="col-md-3 col-sm-6 my-3">
-                    <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/ibm.svg"
+                    <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="static/assets/img/logos/ibm.svg"
                             alt="..." aria-label="IBM Logo" /></a>
                 </div>
             </div>
@@ -228,12 +256,6 @@
             <div class="row align-items-center">
                 <div class="col-lg-4 text-lg-start">Copyright &copy; Your Website 2022</div>
                 <div class="col-lg-4 my-3 my-lg-0">
-                    <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Twitter"><i
-                            class="fab fa-twitter"></i></a>
-                    <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Facebook"><i
-                            class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="LinkedIn"><i
-                            class="fab fa-linkedin-in"></i></a>
                 </div>
                 <div class="col-lg-4 text-lg-end">
                     <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
@@ -246,7 +268,7 @@
     <div class="portfolio-modal modal fade" id="quiz" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
-                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
+                <div class="close-modal" data-bs-dismiss="modal"><img src="static/assets/img/close-icon.svg"
                         alt="Close modal" /></div>
                 <div class="container">
                     <div class="row justify-content-center">
@@ -263,14 +285,13 @@
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
+    <script src="static/js/scripts.js"></script>
     <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
     <!-- * *                               SB Forms JS                               * *-->
     <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
     <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
     <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-    <script
-    type='text/javascript'>                    var divElement = document.getElementById('viz1663551812132'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '1116px'; vizElement.style.height = '914px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+    <script type='text/javascript'>                    var divElement = document.getElementById('viz1663551812132'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '1116px'; vizElement.style.height = '914px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                
     </script>
 </body>
 
